@@ -2,6 +2,8 @@
   "name": "cadot.info/tuto-toolsbundle",
   "type": "symfony-bundle",
   "license": "MIT",
+  "minimum-stability": "stable",
+  "prefer-stable": true,
   "description": "A small steps bundle for Symfony5",
   "keywords": [
     "symfony 5",
