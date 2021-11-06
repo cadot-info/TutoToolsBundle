@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Tuto\\ToolsBundle": "src",
+      "Tuto\\ToolsBundle\\": "src",
       "Tuto\\ToolsBundle\\Tests\\": "tests"
     }
   }
