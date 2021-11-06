@@ -1,0 +1,28 @@
+{
+  "name": "cadot.info/tuto-toolsbundle",
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "description": "A small steps bundle for Symfony5",
+  "keywords": [
+    "symfony 5",
+    "symfony"
+  ],
+  "require": {
+    "php": ">=7.2",
+    "symfony/framework-bundle": "^5.0",
+    "symfony/templating": "^5.0"
+  },
+  "require-dev": {
+    "twig/twig": "^3.0",
+    "symfony/twig-bundle": "^5.0",
+    "symfony/twig-bridge": "^5.0",
+    "phpunit/phpunit": "^8.5",
+    "symfony/browser-kit": "^5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tuto\\ToolsBundle": "src",
+      "Tuto\\ToolsBundle\\Tests\\": "tests"
+    }
+  }
+}
